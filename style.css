@@ -1,0 +1,428 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+.container {
+    max-width: 1296px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0% auto;
+}
+.header{
+    margin-top: 31px;
+    padding-bottom: 25px;
+}
+.contant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.language{
+    display: flex;
+    gap: 5.6px;
+    align-items: center;
+}
+.languages{
+    display: flex;
+    gap: 13.5px;
+}
+.language1{
+    display: flex;
+    gap: 4.19px;
+}
+.languagetext{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.36px;
+    text-align: left;    
+    align-content: center;
+}
+.arrowdown{
+    align-content: center;
+}
+.myprofile{
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.36px;
+    text-align: left;    
+    padding-left: 7px;
+    align-content: center;
+}
+.menu{
+    max-width: 368px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.headermenu{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin: 0 9px 0 14px;
+}
+.itemtext{
+    font-family: 'proxima-nova', sans-serif;
+    color: #262626;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.36px;
+    text-align: left;    
+    align-content: center;
+}
+.time{
+    display: none;
+}
+.mobilesimbel{
+    display: none;
+}
+.time{
+    font-family: SF Pro Text;
+font-size: 15px;
+font-weight: 600;
+line-height: 17.9px;
+letter-spacing: -0.02em;
+text-align: center;
+color: #223263;
+align-content: center;
+}
+
+
+.ecom{
+    max-width: 134.32px;
+    width: 100%;
+    display: flex;
+    gap: 6.32px;
+    align-items: center;
+}
+.ecomtext{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    align-content: center;    
+}
+.menubar{
+    max-width: 815.49px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.manutext{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;  
+    color: #262626;
+    align-content: center;  
+}
+.manutext1{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    color: #33A0FF;
+    align-content: center;    
+}
+
+.product{
+    background-color: #F6F7F8;
+}
+.breadcrumbs{
+    margin-top: 34.26px;
+}
+.text{
+    justify-content: center;
+    display: flex;
+    font-family: 'proxima-nova', sans-serif;
+
+}
+.hometext{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.92px;
+    text-align: left;       
+    color: #33A0FF;    
+}
+.slacetext{
+    font-family: Proxima Nova;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.05px;
+    text-align: left;
+    color: #C1C8CE;    
+    align-content: center;
+    padding: 5px 9px 0 8px;
+}
+.breadcrumbstext{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.92px;
+    text-align: left;
+    color: #262626;    
+}
+
+
+.maincontant{
+    margin-top: 40.15px;
+}
+.frame{
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+}
+.product1{
+    max-width: 926.18px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.sellertext{
+    font-family: Proxima Nova;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.92px;
+    text-align: left;
+    color: #C1C8CE;    
+}
+.bestsellertext{
+    display: grid;
+    gap: 34.98px;
+}
+.heroimg{
+    display: grid;
+    gap: 134.34px;
+}
+.shoesimg{
+    border: 2px solid #E5E8EA;
+}
+.shoesimg1{
+    border: 2px solid #006CFF;
+}
+.productpictures{
+    display: flex;
+    gap: 15px;
+    padding-left: 2.35px;
+}
+.producttext{
+    max-width: 450px;
+    width: 100%;    
+}
+.model{
+    display: grid;
+    gap: 22.41px;
+
+}
+.productrate{
+    display: flex;
+    gap: 17px;
+}
+.review{
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.49px;
+    text-align: left;
+    color: #C1C8CE;    
+}
+.submit{
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.49px;
+    text-align: left;
+    color: #33A0FF;    
+}
+.retangleline{
+    padding: 22px 0 20px 0;
+    max-width: 499px;
+    width: 100%;
+}
+.modelname{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    color: #22262A;    
+}
+.price1{
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    margin-bottom: 18px;
+}
+.prize{
+    display: flex;
+    gap: 8px;
+}
+.MRP-price{
+    align-content: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #9098B1;    
+}
+.off{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #FB7181;    
+}
+.pricetext{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #40BFFF;    
+}
+.quality{
+    max-width: 234px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+.vailability{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;    
+    color: #262626;
+    margin-bottom: 15px;
+}
+.in-stock{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;    
+    color: #262626;
+    margin-bottom: 15px;
+    padding-left: 35px;    
+}
+.color-select{
+    display: flex;
+    align-items: center;
+    max-width: 296px;
+    width: 100%;
+    gap: 23px;
+    justify-content: space-between;
+}
+.selecting, .size{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #262626;    
+}
+.colors{
+    display: flex;
+    gap: 21px;
+}
+.sizes{
+    display: flex;
+    margin-top: 21px;
+    gap: 98px;
+}
+.choose-size{
+    padding: 5px;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sallproduct{
+    padding-left: 3px;
+}
+.rate{
+    text-align: center;
+    padding-top: 52.59px;
+    display: grid;
+    gap: 11.96px;
+    justify-content: center;
+}
+.price{
+    display: flex;
+    gap: 11.42px;
+    justify-content: center;
+}
+.latestprice{
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.49px;
+    text-align: left;
+    color: #FF4858;    
+    padding-bottom: 55.29px;
+
+}
+.MRP-price{
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.49px;
+    text-align: left;
+    color: #C1C8CE;    
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .bestsaller{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .menu,.languages{
+        display: none;
+    }
+    .mobilesimbel, .time{
+        display: block;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .product{
+        display: none;
+    }
+    .breadcrumbs{
+        display: none;
+    }
+    
+}
