@@ -1,280 +1,337 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+
 .container {
     max-width: 1296px;
     width: 100%;
     padding: 0 20px;
     margin: 0% auto;
 }
-.header{
+
+.header {
     margin-top: 31px;
     padding-bottom: 25px;
 }
-.contant{
+
+.contant {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
 }
-.language{
+
+.language {
     display: flex;
     gap: 5.6px;
     align-items: center;
 }
-.languages{
+
+.languages {
     display: flex;
     gap: 13.5px;
 }
-.language1{
+
+.language1 {
     display: flex;
     gap: 4.19px;
 }
-.languagetext{
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24.36px;
-    text-align: left;    
-    align-content: center;
-}
-.arrowdown{
-    align-content: center;
-}
-.myprofile{
+
+.languagetext {
     font-family: 'proxima-nova', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 24.36px;
-    text-align: left;    
+    text-align: left;
+    align-content: center;
+}
+
+.arrowdown {
+    align-content: center;
+}
+
+.myprofile {
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.36px;
+    text-align: left;
     padding-left: 7px;
     align-content: center;
 }
-.menu{
+
+.menu {
     max-width: 368px;
     width: 100%;
     display: flex;
     align-items: center;
 }
-.headermenu{
+
+.headermenu {
     display: flex;
     gap: 32px;
     align-items: center;
     margin: 0 9px 0 14px;
 }
-.itemtext{
+
+.itemtext {
     font-family: 'proxima-nova', sans-serif;
     color: #262626;
     font-size: 20px;
     font-weight: 400;
     line-height: 24.36px;
-    text-align: left;    
+    text-align: left;
     align-content: center;
 }
-.time{
-    display: none;
-}
-.mobilesimbel{
-    display: none;
-}
-.time{
-    font-family: SF Pro Text;
-font-size: 15px;
-font-weight: 600;
-line-height: 17.9px;
-letter-spacing: -0.02em;
-text-align: center;
-color: #223263;
-align-content: center;
+
+/* ecom -------------------------------------------------------------------------- */
+.product {
+    background-color: #F6F7F8;
 }
 
-
-.ecom{
+.ecom {
     max-width: 134.32px;
     width: 100%;
     display: flex;
     gap: 6.32px;
     align-items: center;
 }
-.ecomtext{
+
+.ecomtext {
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 27px;
     text-align: left;
-    align-content: center;    
+    align-content: center;
 }
-.menubar{
+
+.menubar {
     max-width: 815.49px;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.manutext{
-    font-family: "Poppins", sans-serif;
+
+.manutext {
+    font-family: "Poppins", serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 36px;
-    text-align: left;  
+    text-align: left;
     color: #262626;
-    align-content: center;  
+    align-content: center;
 }
-.manutext1{
-    font-family: "Poppins", sans-serif;
+
+.manutext1 {
+    font-family: "Poppins", serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 36px;
     text-align: left;
     color: #33A0FF;
-    align-content: center;    
+    align-content: center;
 }
 
-.product{
-    background-color: #F6F7F8;
-}
-.breadcrumbs{
+/* breadcrumbs ---------------------------------------------------*/
+.breadcrumbs {
     margin-top: 34.26px;
 }
-.text{
+
+.text {
     justify-content: center;
     display: flex;
     font-family: 'proxima-nova', sans-serif;
 
 }
-.hometext{
+
+.hometext {
     font-size: 18px;
     font-weight: 400;
     line-height: 21.92px;
-    text-align: left;       
-    color: #33A0FF;    
+    text-align: left;
+    color: #33A0FF;
 }
-.slacetext{
+
+.slacetext {
     font-family: 'proxima-nova', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 17.05px;
     text-align: left;
-    color: #C1C8CE;    
+    color: #C1C8CE;
     align-content: center;
     padding: 5px 9px 0 8px;
 }
-.breadcrumbstext{
+
+.breadcrumbstext {
     font-size: 18px;
     font-weight: 400;
     line-height: 21.92px;
     text-align: left;
-    color: #262626;    
+    color: #262626;
 }
 
-
-.maincontant{
+/* frame ------------------------------------------------------------------------*/
+.maincontant {
     margin-top: 40.15px;
 }
-.frame{
+
+.frame {
     display: flex;
     gap: 32px;
     justify-content: space-between;
 }
 
-.product1{
+.product-res {
+    display: none;
+}
+
+.modelname-res {
+    font-family: "Poppins", sans-serif;
+    color: #223263;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.product1 {
     max-width: 926.18px;
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 49px;
 }
-.product-info{
-    
+
+.product-info {
     display: flex;
     gap: 30px;
     justify-content: space-between;
 }
-.sellertext{
+
+.sellertext {
     font-family: 'proxima-nova', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 21.92px;
     text-align: left;
-    color: #C1C8CE;    
+    color: #C1C8CE;
 }
-.bestsellertext{
-    display: grid;
-    gap: 34.98px;
-}
-.heroimg{
+
+
+
+.heroimg {
     display: grid;
     gap: 134px;
     margin-top: 15px;
 }
-.shoesimg{
+
+.shoesimg {
     border: 2px solid #E5E8EA;
 }
-.shoesimg1{
+
+.shoesimg1 {
     border: 2px solid #006CFF;
 }
-.productpictures{
+
+.productpictures {
     display: flex;
     gap: 15px;
     padding-left: 2.35px;
 }
-.producttext{
-    max-width: 499px;
-    width: 100%;    
+
+
+
+
+/* product-text ---------------------------------------------------*/
+.favourite {
+    display: none;
 }
-.productrate{
+
+.product-title {
+    max-width: 275px;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    color: #223263;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.producttext {
+    max-width: 499px;
+    width: 100%;
+}
+
+.stars{
+    display: none;
+}
+.productrate {
     display: flex;
     gap: 17px;
 }
-.review{
+
+.review {
     font-family: 'proxima-nova', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 19.49px;
     text-align: left;
-    color: #C1C8CE;    
+    color: #C1C8CE;
 }
-.submit{
+
+.submit {
     font-family: 'proxima-nova', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 19.49px;
     text-align: left;
-    color: #33A0FF;    
+    color: #33A0FF;
 
 }
-.retangleline1{
-    padding: 19px 0 16px ;
-    max-width: 499px ;
+
+.retangleline1 {
+    padding: 19px 0 16px;
+    max-width: 499px;
     width: 100%;
 }
-.retangleline{
+
+.retangleline {
     padding: 22px 0 20px 0;
     max-width: 499px;
     width: 100%;
 }
-.modelname{
+
+.modelname {
     font-family: "Poppins", sans-serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 31px;
     text-align: left;
-    color: #22262A; 
-    margin-bottom: 22px;   
+    color: #22262A;
+    margin-bottom: 22px;
 }
-.price1{
+
+.price1 {
     display: flex;
     gap: 9px;
-    align-items: center;
-    margin-bottom: 18px;
+    align-items: baseline;
 }
-.prize{
+
+.prize {
     display: flex;
     gap: 8px;
 }
-.MRP-price{
+
+.MRP-price {
     align-content: center;
     font-family: "Poppins", sans-serif;
     font-size: 14px;
@@ -282,53 +339,60 @@ align-content: center;
     line-height: 21px;
     letter-spacing: 0.5px;
     text-align: left;
-    color: #9098B1;    
+    color: #9098B1;
 }
-.off{
+
+.off {
     font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 0.5px;
     text-align: left;
-    color: #FB7181;    
+    color: #FB7181;
 }
-.pricetext{
+
+.pricetext {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 0.5px;
     text-align: left;
-    color: #40BFFF;    
+    color: #40BFFF;
 }
-.quality{
+
+.quality {
     max-width: 234px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
+    margin-top: 18px;
 }
-.vailability{
+
+.vailability {
     font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
-    text-align: left;    
+    text-align: left;
     color: #262626;
     margin-bottom: 15px;
 }
-.in-stock{
+
+.in-stock {
     font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
-    text-align: left;    
+    text-align: left;
     color: #262626;
     margin-bottom: 15px;
-    padding-left: 35px;    
+    padding-left: 35px;
 }
-.color-select{
+
+.color-select {
     display: flex;
     align-items: center;
     max-width: 296px;
@@ -336,25 +400,30 @@ align-content: center;
     gap: 23px;
     justify-content: space-between;
 }
-.selecting, .size{
+
+.selecting,
+.size {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    color: #262626;    
+    color: #262626;
 }
-.colors{
+
+.colors {
     display: flex;
     gap: 21px;
 }
-.sizes{
+
+.sizes {
     display: flex;
     margin-top: 21px;
     gap: 98px;
     align-items: center;
 }
-.choose-size{
+
+.choose-size {
     padding: 5px;
     border-radius: 4px;
     max-width: 123px;
@@ -362,57 +431,66 @@ align-content: center;
     padding: 11px 16px;
     border: none;
 }
-.qty{
+
+.qty {
     display: flex;
     align-items: center;
     border-radius: 4px;
     justify-content: space-between;
     align-items: center;
-    
+
 }
-.count-board{
+
+.count-board {
     padding: 13px 18px 16px 18px;
     display: flex;
 }
-.qty-no{
+
+.qty-no {
     font-family: 'proxima-nova', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
     text-align: left;
-    color: #262626; 
-    padding: 0 30px;   
+    color: #262626;
+    padding: 0 30px;
 }
-.buy-in{
+
+.buy-in {
     display: flex;
     gap: 15px;
     padding: 14px 15px 16px 21px;
     align-items: center;
     background-color: #eff8ff;
 }
-.add-to-cart{
+
+.add-to-cart {
     font-family: 'proxima-nova', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 19.49px;
     text-align: left;
-    color: #33A0FF;    
+    color: #33A0FF;
 }
-.btn{
+
+.btn {
     display: flex;
     gap: 17px;
 }
-.heart{
+
+.heart {
     padding: 17px 16px;
 }
-.share{
+
+.share {
     display: flex;
     margin-top: 45px;
     max-width: 499px;
     width: 100%;
     gap: 10px;
 }
-.twitter{
+
+.twitter {
     background-color: #03A9F4;
     border-radius: 4px;
     display: flex;
@@ -420,7 +498,8 @@ align-content: center;
     gap: 12px;
     align-items: center;
 }
-.facebook{
+
+.facebook {
     background-color: #385C8E;
     border-radius: 4px;
     display: flex;
@@ -428,21 +507,28 @@ align-content: center;
     gap: 12px;
     align-items: center;
 }
-.facebook-text, .twitter-text{
+
+.facebook-text,
+.twitter-text {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     text-align: left;
-    color: #FFFFFF;    
+    color: #FFFFFF;
     text-wrap: nowrap;
 }
-.tabs{
+
+
+/* tabs -------------------------------------------------------------------*/
+.tabs {
     margin-top: 49px;
     max-width: 924px;
     width: 100%;
+    padding-left: 31px;
 }
-.tab-head{
+
+.tab-head {
     display: flex;
     gap: 79px;
     padding-bottom: 30px;
@@ -450,108 +536,259 @@ align-content: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
-    text-align: left;    
+    text-align: left;
 }
-.tab-0{
+
+.tab-0 {
     font-family: 'proxima-nova', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 19.49px;
     text-align: left;
-    color: #262626;    
+    color: #262626;
 }
-.tab-text{
+
+.tab-text {
     display: grid;
     gap: 15px;
     max-width: 760px;
     width: 100%;
     margin-top: 21px;
 }
-.text{
-    font-family: 'proxima-nova', sans-serif;
+
+.text {
+    font-family: "Poppins", serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 21.6px;
     letter-spacing: 0.5px;
     text-align: left;
-    color: #9098B1;        
+    color: #9098B1;
 }
 
+/* bestseller -------------------------------------------------------------*/
+.bestsellertext {
+    display: grid;
+    gap: 34.98px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-.sallproduct{
+.sallproduct {
     padding-left: 3px;
 }
-.rate{
+
+.rate {
     text-align: center;
     padding-top: 52.59px;
     display: grid;
     gap: 11.96px;
     justify-content: center;
 }
-.price{
+
+.price {
     display: flex;
     gap: 11.42px;
     justify-content: center;
 }
-.latestprice{
-    font-family: Proxima Nova;
+
+.latestprice {
+    font-family: 'proxima-nova', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 19.49px;
     text-align: left;
-    color: #FF4858;    
+    color: #FF4858;
     padding-bottom: 55.29px;
 
 }
-.MRP-price{
-    font-family: Proxima Nova;
+
+.MRP-price {
+    font-family: 'proxima-nova', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 19.49px;
     text-align: left;
-    color: #C1C8CE;    
+    color: #C1C8CE;
 }
 
 
+/* related-products ---------------------------------------------------------------------------*/
+.related-products{
+    margin-top: 77px;
+}
+.related-head{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 86px;
+}
+.heading{
+    font-family: "Poppins", serif;
+    color: #22262A;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 52.5px;
+    text-align: center;    
+    justify-content: center;
+}
+.product-frame{
+    max-width: 310px;
+    width: 100%;
+    display: grid;
+    gap: 15px;
+}
+.product-details{
+    display: grid;
+    gap: 6px;
+}
+.pricetext1{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #40BFFF;
+    padding-bottom: 18px;
+    
+}
+.products{
+    display: flex;
+    gap: 34.5px;
+}
+
+/* footer -----------------------------------------------------------------------------*/
 
 
-@media screen and (max-width: 1024px) {
-    .bestsaller{
+
+
+@media screen and (max-width: 1200px) {
+    .bestsaller {
         display: none;
     }
 }
+
+
+
+
+@media screen and (max-width: 950px) {
+
+    .share,
+    .heart {
+        display: none;
+    }
+
+}
+
 
 
 @media screen and (max-width: 550px) {
-    .menu,.languages{
+    .header {
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .menu,
+    .languages {
         display: none;
     }
-    .mobilesimbel, .time{
+
+    .heroimg {
+        margin: 0;
+        gap: 40px;
+    }
+
+    .retangleline1,
+    .retangleline {
+        display: none;
+    }
+
+    .product-res {
+        display: flex;
+        align-items: center;
+        margin: 26px 0 28px 0;
+    }
+
+    .tab-head,
+    .Rectangle-line {
+        display: none;
+    }
+
+    .favourite {
+        align-items: baseline;
+        display: flex;
+        gap: 44px;
+        justify-content: space-between;
+        padding-bottom: 8px;
+    }
+
+    .productpictures,
+    .sizes {
+        display: none;
+    }
+
+    .prize,
+    .productrate {
+        display: none;
+    }
+
+    .quality,
+    .colors {
+        display: none;
+    }
+
+    .stars{
         display: block;
+    }
+    .price1 {
+        padding: 16px 0 24px 0;
+    }
+
+
+    .color-select {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .selecting,
+    .size {
+        font-family: "Poppins", sans-serif;
+        color: #223263;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+        text-align: left;
+    }
+
+    .select-size {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
     }
 }
 
 
 
+@media screen and (max-width: 768px) {
+    .product {
+        display: none;
+    }
 
-@media screen and (max-width: 768px){
-    .product{
+
+    .breadcrumbs {
         display: none;
     }
-    .breadcrumbs{
+
+
+    .modelname {
         display: none;
     }
-    
+
+    .product-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
