@@ -5,7 +5,9 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
-
+body{
+    font-family: "Poppins", sans-serif;
+}
 .container {
     max-width: 1296px;
     width: 100%;
@@ -280,15 +282,6 @@
     gap: 17px;
 }
 
-.review {
-    font-family: 'proxima-nova', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19.49px;
-    text-align: left;
-    color: #C1C8CE;
-}
-
 .submit {
     font-family: 'proxima-nova', sans-serif;
     font-size: 16px;
@@ -433,15 +426,11 @@
     border: none;
 }
 
-.select-size {
-    display: none;
-
-}
 .Specification{
     margin: 24px 0;
 
 }
-.Specification-head{
+.heading-h5{
     font-family: "Poppins", sans-serif;
     color: #223263;
     font-size: 14px;
@@ -460,7 +449,7 @@
     justify-content: space-between;
     gap: 127px;
 }
-.shown, .style-text{
+.text-name{
     font-family: "Poppins", sans-serif;
     color: #223263;
     font-size: 12px;
@@ -469,7 +458,7 @@
     letter-spacing: 0.5px;
     text-align: left;        
 }
-.laser-text, .style-text1{
+.text1{
     font-family: "Poppins", sans-serif;
     color: #9098B1;
     max-width: 171px;
@@ -484,16 +473,157 @@
     display: flex;
     justify-content: space-between;
 }
-.Description-text{
+/* responsive ------------------------------------------------------------------*/
+.select-size, .contant-review ,.review ,.Specification {
+    display: none;
+}
+
+.review{
+    width: 100%;
+    padding-top: 24px;
+}
+.review-product{
+    display: grid;
+    gap: 8px;
+}
+.review-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.see-more{
+    font-family: "Poppins", sans-serif;
+    color: #40BFFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    text-align: right;    
+}
+.productrate1{
+    display: flex;
+    gap: 8px;
+}
+.rate-plus{
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    color: #9098B1 ;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-align: left;    
+}
+.review-5{
+    font-family: "Poppins", sans-serif;
+    color: #9098B1 ;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-align: left;    
+}
+
+.review {
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.49px;
+    text-align: left;
+    color: #C1C8CE;
+}
+.contant-review{
+    display: grid;
+    gap: 16px;
+    padding-top: 16px;
+}
+.profile{
+    display: flex;
+    gap: 16px;    
+}
+
+.productpictures1{
+    display: flex;
+    gap: 12px;
+}
+.shoesimg1{
+    max-width: 72px;
+    border: none;
+    border-radius: 8px;
+}
+.date{
     font-family: "Poppins", sans-serif;
     color: #9098B1;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-align: left;    
+}
+
+.Recomended-Product{
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.products1{
+    display: flex;
+    overflow: scroll;
+    gap: 16px;
+}
+.product-photo1{
+    max-width: 109px;
+    width: 100%;
+    height: 109px;
+}
+
+.product-frame1{
+    width: 141px;
+    display: grid;
+    gap: 8px;
+    padding: 16px;
+}
+.company1{
+    font-family: "Poppins", sans-serif;
+    color: #223263;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-align: left;    
+}
+.pricetext2{
+    font-family: "Poppins", sans-serif;
+    color: #40BFFF;
+    font-size: 12px;
+    font-weight: 700;
     line-height: 21.6px;
     letter-spacing: 0.5px;
-    text-align: left;
-    
+    text-align: left;    
 }
+.MRP-price1{
+    font-family: "Poppins", sans-serif;
+    color: #9098B1;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+.off1{
+    font-family: "Poppins", sans-serif;
+    color: #FB7181;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-align: left;    
+}
+
+
+
+
+
 
 
 
@@ -936,7 +1066,7 @@
         display: none;
     }
 
-    .prize,
+    
     .productrate {
         display: none;
     }
@@ -965,17 +1095,6 @@
         display: flex;
         justify-content: space-between;
         gap: 16px;
-    }
-
-    .selecting,
-    .size-name {
-        font-family: "Poppins", sans-serif;
-        color: #223263;
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 21px;
-        letter-spacing: 0.5px;
-        text-align: left;
     }
 
     .shoes-size {
@@ -1065,5 +1184,9 @@
         grid-template-columns: 1fr 1fr;
     }
 
+
+    .select-size, .contant-review ,.review ,.Specification {
+        display:block;
+    }
 
 }
