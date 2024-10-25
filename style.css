@@ -1009,15 +1009,6 @@
         display: none;
     }
 
-
-
-    .our-offers {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-
-
     .products,.related-products,.tabs{
         display: none;
     }
@@ -1025,6 +1016,14 @@
 
     .footer{
         padding-top: 24px;
+    }
+
+
+    .bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 10px;
     }
 }
 
@@ -1056,4 +1055,15 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+
+    
+
+
+    .our-offers {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
 }
