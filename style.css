@@ -187,6 +187,7 @@ body{
     display: flex;
     gap: 32px;
     justify-content: space-between;
+    margin-left: 23px;
 }
 
 .product-res {
@@ -216,6 +217,9 @@ body{
     gap: 30px;
     justify-content: space-between;
 }
+.product-image{
+    max-width: 375px;
+}
 
 .sellertext {
     font-family: 'proxima-nova', sans-serif;
@@ -224,6 +228,7 @@ body{
     line-height: 21.92px;
     text-align: left;
     color: #C1C8CE;
+    padding-bottom: 34.98px;
 }
 
 
@@ -280,8 +285,9 @@ body{
 .productrate {
     display: flex;
     gap: 17px;
-}
+    align-items: center;
 
+}
 .submit {
     font-family: 'proxima-nova', sans-serif;
     font-size: 16px;
@@ -403,6 +409,8 @@ body{
 .color-select {
     display: flex;
     gap: 31px;
+    overflow: scroll;
+    padding-bottom: 10px;
 }
 
 .colors {
@@ -474,11 +482,11 @@ body{
     justify-content: space-between;
 }
 /* responsive ------------------------------------------------------------------*/
-.select-size, .contant-review ,.review ,.Specification {
+.select-size, .contant-review ,.review1 ,.Specification {
     display: none;
 }
 
-.review{
+.review1{
     width: 100%;
     padding-top: 24px;
 }
@@ -565,6 +573,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 12px;
+    display: none;
 }
 .products1{
     display: flex;
@@ -764,10 +773,6 @@ body{
 }
 
 /* bestseller -------------------------------------------------------------*/
-.bestsellertext {
-    display: grid;
-    gap: 34.98px;
-}
 
 .sallproduct {
     padding-left: 3px;
@@ -784,7 +789,8 @@ body{
 .price {
     display: flex;
     gap: 11.42px;
-    justify-content: center;
+    align-items: start;
+    height: 75px;
 }
 
 .latestprice {
@@ -794,7 +800,6 @@ body{
     line-height: 19.49px;
     text-align: left;
     color: #FF4858;
-    padding-bottom: 55.29px;
 
 }
 
@@ -986,6 +991,38 @@ body{
 }
 
 
+/* swiper ---------------------------------------------------------------------*/
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .swiper-slide {
+    max-width: 141px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 
 
 
@@ -1090,11 +1127,13 @@ body{
         flex-direction: column;
         align-items: flex-start;
         gap: 12px;
+        padding-bottom: 10px;
     }
     .colors-res{
         display: flex;
         justify-content: space-between;
         gap: 16px;
+        padding-bottom: 10px;
     }
 
     .shoes-size {
@@ -1102,6 +1141,7 @@ body{
         justify-content: space-between;
         gap: 16px;
         overflow: scroll;
+        padding-bottom: 10px;
 
     }
 
@@ -1144,6 +1184,10 @@ body{
         align-items: center;
         gap: 10px;
     }
+
+    .Recomended-Product{
+        display: block;
+    }
 }
 
 
@@ -1185,7 +1229,7 @@ body{
     }
 
 
-    .select-size, .contant-review ,.review ,.Specification {
+        .contant-review ,.review ,.Specification {
         display:block;
     }
 
