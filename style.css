@@ -409,8 +409,7 @@ body{
 .color-select {
     display: flex;
     gap: 31px;
-    overflow: scroll;
-    padding-bottom: 10px;
+    
 }
 
 .colors {
@@ -1128,6 +1127,7 @@ body{
         align-items: flex-start;
         gap: 12px;
         padding-bottom: 10px;
+        overflow: scroll;
     }
     .colors-res{
         display: flex;
