@@ -128,15 +128,17 @@ body{
     color: #262626;
     align-content: center;
 }
+.ecom1{
+    transition: all 1s;
 
-.manutext1 {
-    font-family: "Poppins", serif;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 36px;
-    text-align: left;
+}
+.ecom1:hover{
+    transform: rotate(360deg);
+}
+.manutext:hover {
     color: #33A0FF;
-    align-content: center;
+    transform: scale(0.9);
+    transition: 0.5s;
 }
 
 /* breadcrumbs ---------------------------------------------------*/
@@ -205,7 +207,6 @@ body{
 }
 
 .product1 {
-    max-width: 926.18px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -219,6 +220,7 @@ body{
 }
 .product-image{
     max-width: 375px;
+    width: 100%;
 }
 
 .sellertext {
@@ -412,9 +414,26 @@ body{
     
 }
 
+.input-buttons{
+    width: 20.73px;
+    height: 21.27px;
+    margin: 0;
+    border-radius: 50%;
+}
+.color-select input:checked+label{
+    border: 3px solid #FFFFFF;
+    outline: 3px solid #006CFF;
+    width: 19px;
+    height: 19px;
+    margin: 0 1px;
+
+}
 .colors {
     display: flex;
     gap: 21px;
+}
+.colors input{
+    display: none;
 }
 
 .sizes {
@@ -439,12 +458,11 @@ body{
 }
 .heading-h5{
     font-family: "Poppins", sans-serif;
-    color: #223263;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.5px;
-    text-align: left;        
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #262626;    
 }
 .spacifications{
     display: grid;
@@ -454,7 +472,6 @@ body{
     padding-top: 12px;
     display: flex;
     justify-content: space-between;
-    gap: 127px;
 }
 .text-name{
     font-family: "Poppins", sans-serif;
@@ -785,6 +802,9 @@ body{
     justify-content: center;
 }
 
+.stars-icons{
+    display: flex;
+}
 .price {
     display: flex;
     gap: 11.42px;
@@ -809,6 +829,10 @@ body{
     line-height: 19.49px;
     text-align: left;
     color: #C1C8CE;
+}
+.bestsaller{
+    max-width: 287px;
+    width: 100%;
 }
 
 
@@ -999,7 +1023,7 @@ body{
   }
 
   .swiper-slide {
-    max-width: 141px;
+    min-width: 141px;
     width: 100%;
     text-align: center;
     font-size: 18px;
@@ -1012,17 +1036,19 @@ body{
 
   .swiper-slide img {
     display: block;
-    width: 100%;
-    height: 100%;
     object-fit: cover;
+  
   }
 
   .swiper {
     margin-left: auto;
     margin-right: auto;
   }
-
-
+  .swiper-pagination .swiper-pagination-bullet{
+    width: 31px;
+    height: 3px;
+    border-radius: 2px;
+  }
 
 
 
@@ -1043,7 +1069,10 @@ body{
 
 
 @media screen and (max-width: 950px) {
+.frame{
 
+margin: 0;
+}
     .share,
     .heart {
         display: none;
@@ -1187,6 +1216,16 @@ body{
 
     .Recomended-Product{
         display: block;
+    }
+
+    .heading-h5{
+        font-family: "Poppins", sans-serif;
+        color: #223263;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+        text-align: left;        
     }
 }
 
