@@ -136,7 +136,7 @@
                   </div>
                   <div class="productpicture01">
                     <img
-                      class="shoesimg1"
+                      class="shoesimg"
                       src="./images/ProductImage01.svg"
                       alt="shoesimg03"
                     />
@@ -511,16 +511,10 @@
             <!-- tab-text ------------------------------------------------------------------------------------------------->
             <div class="tabs">
               <div class="tab-head">
-                <p>Product Infomation</p>
-                <p>Reviews <span class="tab-0">0</span></p>
-                <p>Another tab</p>
+                <p class="tab-heading">Product Infomation</p>
+                <p class="tab-heading">Reviews <span class="tab-0">0</span></p>
+                <p class="tab-heading">Another tab</p>
               </div>
-              <img
-                class="Rectangle-line"
-                src="./images/Rectangle-line .svg"
-                alt="retangleline"
-              />
-
               <div class="tab-text">
                 <p class="text">
                   air max are always very comfortable fit, clean and just
@@ -782,16 +776,20 @@
                 and scrambled.
               </p>
               <div class="icons">
+                <a href="https://www.facebook.com/login/" target="_blank">
                 <img
                   class="facebook-icon"
                   src="./images/facebook-icon.svg"
                   alt="facebook"
                 />
+              </a>
+              <a href="https://twitter.fileplanet.com/apk/download" target="_blank">
                 <img
                   class="twitter-icon"
                   src="./images/twitter-icon.svg"
                   alt="twitter"
                 />
+              </a>
               </div>
             </div>
             <div class="contact">
@@ -843,24 +841,23 @@
             </div>
           </div>
 
-          <img
-            class="Rectangle-row"
-            src="./images/Rectangle-row.svg"
-            alt="Rectangle-row"
-          />
+          <img class="Rectangle-row" src="./images/Rectangle-row.svg" alt="Rectangle-row"/>
           <div class="bottom">
             <p class="bottom-text">
               © 2018 Ecommerce theme by www.bisenbaev.com
             </p>
             <div class="brands">
-              <img src="./images/Western-union.svg" alt="" />
-              <img src="./images/master-card.svg" alt="" />
-              <img src="./images/Paypal.svg" alt="" />
+              <img src="./images/Western-union.svg" alt="Western-union" />
+              <img src="./images/master-card.svg" alt="master-card" />
+              <img src="./images/Paypal.svg" alt="Paypal" />
+              <div class="pay">
+                <img src="./images/visa.svg" alt="visa">
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -869,7 +866,6 @@
     <script>
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 2.5,
-        spaceBetween: 30,
         loop: true,
         autoplay: {
           delay: 1500,
